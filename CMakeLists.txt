@@ -35,7 +35,7 @@ find_package(Qt5Multimedia)
 find_package(Qt5Feedback)
 find_package(Intl REQUIRED)
 
-find_package(AnthyUnicode)
+find_package(AnthyUnicode REQUIRED)
 find_package(Anthy)
 find_package(Pinyin)
 find_package(Chewing)
