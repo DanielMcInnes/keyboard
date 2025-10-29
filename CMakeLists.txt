@@ -35,9 +35,9 @@ find_package(Qt5Multimedia)
 find_package(Qt5Feedback)
 find_package(Intl REQUIRED)
 
-find_package(AnthyUnicode REQUIRED)
 find_package(Anthy)
-find_package(Pinyin)
+find_package(AnthyUnicode REQUIRED)
+find_package(Pinyin REQUIRED)
 find_package(Chewing)
 
 set(MALIIT_KEYBOARD_LIB_SOURCES
