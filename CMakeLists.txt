@@ -38,7 +38,7 @@ find_package(Intl REQUIRED)
 find_package(Anthy)
 find_package(AnthyUnicode REQUIRED)
 find_package(Pinyin REQUIRED)
-find_package(Chewing)
+find_package(Chewing REQUIRED)
 
 set(MALIIT_KEYBOARD_LIB_SOURCES
         src/lib/logic/abstractlanguagefeatures.h
